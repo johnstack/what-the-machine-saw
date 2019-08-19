@@ -8,6 +8,7 @@ request.addEventListener('load', function (e) {
  
     document.getElementById('title').innerHTML = '<a href="' + el.links.self + '">' + el.attributes.summary_title + '</a>';
     document.getElementById('pix').innerHTML = '<a href="' + el.links.self + '"><img src="' + imghost + el.attributes.multimedia[0].processed.medium_thumbnail.location + '"></a> ';
+    document.getElementById('morepix').innerHTML = '<a href="' + el.links.self + '"><img src="' + imghost + el.attributes.multimedia[1].processed.medium_thumbnail.location + '"></a> ';
     document.getElementById('tags').innerHTML = '1. ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[0].value + '? ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[0].details.confidence + '%';
     document.getElementById('moretags').innerHTML = '2. ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[1].value + '? ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[1].details.confidence + '%';
     document.getElementById('evenmoretags').innerHTML = '3. ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[2].value + '? ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[2].details.confidence + '%';
