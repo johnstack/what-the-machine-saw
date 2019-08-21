@@ -17,7 +17,7 @@ request.addEventListener('load', function (e) {
     document.getElementById('sixthtag').innerHTML = '6. ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[5].value + '? ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[5].details.confidence + '%';
     document.getElementById('seventhtag').innerHTML = '7. ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[6].value + '? ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[6].details.confidence + '%';
     document.getElementById('eighthtag').innerHTML = '8. ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[7].value + '? ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[7].details.confidence + '%'; 
-    document.getElementById('eigthtag').innerHTML = '10. ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[8].value + '? ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[8].details.confidence + '%';  
+    document.getElementById('ninethtag').innerHTML = '10. ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[8].value + '? ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[8].details.confidence + '%';  
     document.getElementById('tenthtag').innerHTML = '10. ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[9].value + '? ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[9].details.confidence + '%';  
 
   });  
