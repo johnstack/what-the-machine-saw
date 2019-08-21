@@ -23,6 +23,7 @@ request.addEventListener('load', function (e) {
     if (el.attributes.multimedia[0].enhancement.rekognition[0].labels[7]) document.getElementById('eighthtag').innerHTML = '8. ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[7].value + '? ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[7].details.confidence + '%';
     if (el.attributes.multimedia[0].enhancement.rekognition[0].labels[8]) document.getElementById('ninethtag').innerHTML = '9. ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[8].value + '? ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[8].details.confidence + '%';
     if (el.attributes.multimedia[0].enhancement.rekognition[0].labels[9]) document.getElementById('tenthtag').innerHTML = '10. ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[9].value + '? ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[9].details.confidence + '%';
+    if (el.attributes.multimedia[0].enhancement.rekognition[0].labels[10]) document.getElementById('eleventhtag').innerHTML = '11. ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[10].value + '? ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[10].details.confidence + '%';
   });
 });
 
