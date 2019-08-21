@@ -7,7 +7,7 @@ request.addEventListener('load', function (e) {
     if (!el.attributes.multimedia[0] || !el.attributes.multimedia[0].enhancement || !el.attributes.multimedia[0].enhancement.rekognition[0]) {
       getObject();
     }
-    // document.getElementById('title').innerHTML = '<a href="' + el.links.self + '">' + el.attributes.summary_title + '</a>';
+    document.getElementById('title').innerHTML = '<a href="' + el.links.self + '">' + el.attributes.summary_title + '</a>';
     document.getElementById('pix').innerHTML = '<a href="' + el.links.self + '"><img src="' + imghost + el.attributes.multimedia[0].processed.medium_thumbnail.location + '"></a> ';
     if (el.attributes.multimedia[0].enhancement.rekognition[1]) {
       document.getElementById('morepix').innerHTML = '<a href="' + el.links.self + '"><img src="' + imghost + el.attributes.multimedia[1].processed.medium_thumbnail.location + '"></a> ';
