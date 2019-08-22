@@ -4,13 +4,13 @@ var imghost = 'https://s3-eu-west-1.amazonaws.com/smgco-images/images/';
 request.addEventListener('load', function (e) {
   // response comes back as "{data: [{attributes: {locations: [{...}], summary_title: '...'} ...}, {} ...]}"
   JSON.parse(this.responseText).data.forEach(function (el) {
-    if (!el.attributes.multimedia[0] || !el.attributes.multimedia[0].enhancement || !el.attributes.multimedia[0].enhancement.rekognition[0]) {
+    if (!el.attributes.multimedia[0] || !el.attributes.multimedia[0].enhancement || !el.attributes.multimedia[0].enhancement.rekognition[0].labels[0]) {
       getObject();
     }
     
     document.getElementById('title').innerHTML = '<h1><a href="' + el.links.self + '">' + el.attributes.summary_title + '</a></h1>';
     document.getElementById('pix').innerHTML = '<a href="' + el.links.self + '"><img src="' + imghost + el.attributes.multimedia[0].processed.medium_thumbnail.location + '"></a> ';
-    if (el.attributes.multimedia[0].enhancement.rekognition[1]) {
+    if (el.attributes.multimedia[1]) {
       document.getElementById('morepix').innerHTML = '<a href="' + el.links.self + '"><img src="' + imghost + el.attributes.multimedia[1].processed.medium_thumbnail.location + '"></a> ';
     }
     if (el.attributes.multimedia[0].enhancement.rekognition[0].labels[0]) document.getElementById('tags').innerHTML = '1. <a href="http://collection.sciencemuseum.org.uk/search/imgtag/' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[0].value + '">' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[0].value + '</a>? ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[0].details.confidence + '%';
