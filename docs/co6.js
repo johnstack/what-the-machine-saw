@@ -8,7 +8,7 @@ request.addEventListener('load', function (e) {
       getObject();
     }
     
-    document.getElementById('title').innerHTML = '<a href="' + el.links.self + '">' + el.attributes.summary_title + '</a>';
+    document.getElementById('title').innerHTML = '<h1><a href="' + el.links.self + '">' + el.attributes.summary_title + '</a></h1>';
     document.getElementById('pix').innerHTML = '<a href="' + el.links.self + '"><img src="' + imghost + el.attributes.multimedia[0].processed.medium_thumbnail.location + '"></a> ';
     if (el.attributes.multimedia[0].enhancement.rekognition[1]) {
       document.getElementById('morepix').innerHTML = '<a href="' + el.links.self + '"><img src="' + imghost + el.attributes.multimedia[1].processed.medium_thumbnail.location + '"></a> ';
