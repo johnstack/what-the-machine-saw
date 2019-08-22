@@ -5,4 +5,4 @@ Playing around with the computer vision tags on the [Science Museum Group Collec
 Live version: https://johnstack.github.io/what-the-machine-saw/
 
 
-Thanks to @jamieu for help with the JavaScript :-)
+Thanks to [jamieu](https://github.com/jamieu) for help with the JavaScript :-)
