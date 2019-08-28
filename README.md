@@ -1,6 +1,6 @@
 # What the machine saw 
 
-Playing around with the computer vision tags on the [Science Museum Group Collection](http://collection.sciencemuseumgroup.org.uk). The tags were generated using AWS's [Amazon Rekognition](https://aws.amazon.com/rekognition/) service.
+Playing around with the computer vision tags on the [Science Museum Group Collection](http://collection.sciencemuseumgroup.org.uk). The tags were generated using AWS's [Amazon Rekognition](https://aws.amazon.com/rekognition/) service. Built using the Science Museum's [Collection Online API](https://github.com/TheScienceMuseum/collectionsonline/wiki/Collections-Online-API).
 
 [Live version 1](https://johnstack.github.io/what-the-machine-saw/)
 
