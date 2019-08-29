@@ -9,7 +9,7 @@ Playing around with the computer vision tags on the [Science Museum Group Collec
 
 Thanks to [jamieu](https://github.com/jamieu) for help with the JavaScript :-)
 
-Built using the Science Museum Groups's [Collection Online API](https://github.com/TheScienceMuseum/collectionsonline/wiki/Collections-Online-API).
+Built using the [Science Museum Group](http://www.sciencemuseumgroup.org.uk)'s [Collection Online API](https://github.com/TheScienceMuseum/collectionsonline/wiki/Collections-Online-API).
 
 ## Open source license
 
