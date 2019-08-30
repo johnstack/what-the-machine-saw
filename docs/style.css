@@ -135,18 +135,19 @@ a:hover {
 	position: fixed;
     bottom: 15px;
     left: 10px;
-    width: 100%;
+    width: 90%;
+    line-height: 1.5em;
     }
 	
 #reload {
-	position: fixed;
+    position: fixed;
     bottom: 15px;
     right: 10px;
     width: auto;
- 	}
+	}
  	
 #tags {
-	padding-top: 48px;
+    padding-top: 48px;
 	} 	
  	
 #tags, #moretags, #evenmoretags, #fourthtags, #fifthtags, #sixthtag, #seventhtag, #eighthtag, #ninethtag, #tenthtag {
@@ -158,7 +159,7 @@ a:hover {
 	font-weight: bold;
 	z-index: 1000;
 	padding-bottom: 10px;
-	line-height: normal
+	line-height: normal;
 	}
 	
 #info {
@@ -166,3 +167,4 @@ a:hover {
     top:15px;
 	right:10px;
 	}
+
