@@ -84,7 +84,7 @@ a:hover {
     z-index: -10;
     float: left;
     position: absolute;
-	}
+    }
 
 #pix img {
     width: auto;
@@ -92,13 +92,13 @@ a:hover {
     }
 
 #morepix {
-	position: fixed;
+    position: fixed;
     top: 0px;
     right: 0px;
     padding: 0px;
-	z-index: -9;
-	float: right;
-	}
+    z-index: -9;
+    float: right;
+    }
 
 #morepix img  {
 	opacity: 0.9;
@@ -126,27 +126,27 @@ a:hover {
 	}
 	
 #fourthpix img {
-	opacity: 0.5;
-	}
+    opacity: 0.5;
+    }
  	
 #tags {
     padding-top: 48px;
-	} 	
+    } 	
  	
 #tags, #moretags, #evenmoretags, #fourthtags, #fifthtags, #sixthtag, #seventhtag, #eighthtag, #ninethtag, #tenthtag {
-	font-size: 30px;
-	color: white;
-	margin-bottom: 2px;
-	margin-left: 50%;
-	text-transform: uppercase;
-	font-weight: bold;
-	z-index: 1000;
-	padding-bottom: 10px;
-	line-height: normal;
-	}
+    font-size: 30px;
+    color: white;
+    margin-bottom: 2px;
+    margin-left: 50%;
+    text-transform: uppercase;
+    font-weight: bold;
+    z-index: 1000;
+    padding-bottom: 10px;
+    line-height: normal;
+    }
 	
 #title {
-	position: fixed;
+    position: fixed;
     bottom: 15px;
     left: 10px;
     width: 90%;
@@ -158,22 +158,22 @@ a:hover {
     bottom: 15px;
     right: 10px;
     width: auto;
-	}
+    }
 
 #info {
     position:fixed;
     top:15px;
-	right:10px;
-	}
+    right:10px;
+    }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 801px) {
 
 #title, #reload, #info {
    font-size: 20px; 
     }
 	
 #title {
-	position: fixed;
+    position: fixed;
     bottom: 15px;
     left: 10px;
     width:75%;
@@ -181,6 +181,7 @@ a:hover {
     }
     
  #tags, #moretags, #evenmoretags, #fourthtags, #fifthtags, #sixthtag, #seventhtag, #eighthtag, #ninethtag, #tenthtag {
-	margin-left: 25%;
-	}   
+    margin-left: 15px;
+    } 
+	
   }
