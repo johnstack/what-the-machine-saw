@@ -130,21 +130,6 @@ a:hover {
 #fourthpix img {
 	opacity: 0.5;
 	}
-		
-#title {
-	position: fixed;
-    bottom: 15px;
-    left: 10px;
-    width: 90%;
-    line-height: 1.5em;
-    }
-	
-#reload {
-    position: fixed;
-    bottom: 15px;
-    right: 10px;
-    width: auto;
-	}
  	
 #tags {
     padding-top: 48px;
@@ -162,6 +147,21 @@ a:hover {
 	line-height: normal;
 	}
 	
+#title {
+	position: fixed;
+    bottom: 15px;
+    left: 10px;
+    width: 90%;
+    line-height: 1.5em;
+    }
+	
+#reload {
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    width: auto;
+	}
+
 #info {
     position:fixed;
     top:15px;
