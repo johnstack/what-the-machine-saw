@@ -166,12 +166,12 @@ a:hover {
     right:10px;
     }
 
-@media only screen and (max-width: 801px) {
+@media only screen and (max-width: 700px) {
 
 #title, #reload, #info {
    font-size: 20px; 
     }
-	
+	 
 #title {
     position: fixed;
     bottom: 15px;
