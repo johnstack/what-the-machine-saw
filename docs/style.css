@@ -168,3 +168,21 @@ a:hover {
 	right:10px;
 	}
 
+@media only screen and (max-width: 600px) {
+
+#title, #reload, #info {
+   font-size: 20px; 
+    }
+	
+#title {
+	position: fixed;
+    bottom: 15px;
+    left: 10px;
+    width:75%;
+    line-height: 1.5em;
+    }
+    
+ #tags, #moretags, #evenmoretags, #fourthtags, #fifthtags, #sixthtag, #seventhtag, #eighthtag, #ninethtag, #tenthtag {
+	margin-left: 25%;
+	}   
+  }
