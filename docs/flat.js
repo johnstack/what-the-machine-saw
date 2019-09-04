@@ -16,7 +16,7 @@ request.addEventListener('load', function (e) {
     if (el.attributes.multimedia[2]) {
       document.getElementById('evenmorepix').innerHTML = '<img src="' + imghost + el.attributes.multimedia[2].processed.medium_thumbnail.location + '">';
     }
-     if (el.attributes.multimedia[2]) {
+     if (el.attributes.multimedia[3]) {
       document.getElementById('fourthpix').innerHTML = '<img src="' + imghost + el.attributes.multimedia[3].processed.medium_thumbnail.location + '">';
     }
  
