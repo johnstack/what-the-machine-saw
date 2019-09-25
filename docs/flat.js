@@ -4,7 +4,7 @@ var imghost = 'https://s3-eu-west-1.amazonaws.com/smgco-images/images/';
 request.addEventListener('load', function (e) {
   // response comes back as "{data: [{attributes: {locations: [{...}], summary_title: '...'} ...}, {} ...]}"
   JSON.parse(this.responseText).data.forEach(function (el) {
-    if (!el.attributes.multimedia[0] || !el.attributes.multimedia[0].enhancement || !el.attributes.multimedia[0].enhancement.rekognition[0] || !el.attributes.multimedia[0].enhancement.rekognition[0].labels[0]) {
+    if (!el.attributes.multimedia[0] || !el.attributes.multimedia[0].enhancement || !el.attributes.multimedia[0].enhancement.rekognition[0] ) {
       getObject();
       return;
     }
