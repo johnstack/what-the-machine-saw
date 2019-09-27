@@ -4,7 +4,7 @@ Playing around with the computer vision tags on the [Science Museum Group Collec
 
 **[What the machine saw (live webpage)](https://johnstack.github.io/what-the-machine-saw/index.html)**
 
-Created for [The Museums + AI Network](https://themuseumsai.network) conveening, Pratt Institute, New York, September 2019.
+Created for [The Museums + AI Network](https://themuseumsai.network) [conveening](https://themuseumsai.network/activities/), Pratt Institute, New York, 16-16 September 2019.
 
 ## Credits
 
