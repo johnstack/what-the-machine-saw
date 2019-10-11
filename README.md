@@ -13,3 +13,5 @@ Built using the [Science Museum Group](http://www.sciencemuseumgroup.org.uk)'s [
 ## Open source license
 
 [Code](https://github.com/johnstack/what-the-machine-saw) licensed under the open source [MIT License](https://github.com/TheScienceMuseum/collection-chrome-extension/blob/master/LICENSE) with the exception of the SMG Sans font which is copyright The Board of Trustees of the Science Museum. 
+
+![Screengrab](https://github.com/johnstack/what-the-machine-saw/blob/master/Screenshot.png)
