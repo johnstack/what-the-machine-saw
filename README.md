@@ -4,6 +4,8 @@ A [web page](https://johnstack.github.io/what-the-machine-saw/index.html) explor
 
 Created for [The Museums + AI Network](https://themuseumsai.network) [conveening](https://themuseumsai.network/activities/), Pratt Institute, New York, 16-17 September 2019.
 
+**[Launch site](https://johnstack.github.io/what-the-machine-saw/index.html)**
+
 ## Credits
 
 Thanks to [jamieu](https://github.com/jamieu) for help with the JavaScript :-)
