@@ -1,10 +1,12 @@
 # What the machine saw 
 
-A [web page](https://johnstack.github.io/what-the-machine-saw/index.html) exploring the computer vision tags on the [Science Museum Group Collection](http://collection.sciencemuseumgroup.org.uk). The tags were generated using AWS's [Amazon Rekognition](https://aws.amazon.com/rekognition/) service. Read the post [Computer vision and the Science Museum Group Collection](https://lab.sciencemuseum.org.uk/computer-vision-and-the-science-museum-group-collection-a6c20efb0ac9) on the [Science Museum Digital Lab](https://lab.sciencemuseum.org.uk/) blog.
+A [web page](https://johnstack.github.io/what-the-machine-saw/index.html) exploring the computer vision tags on the [Science Museum Group Collection](http://collection.sciencemuseumgroup.org.uk). The tags were generated using AWS's [Amazon Rekognition](https://aws.amazon.com/rekognition/) service. 
 
 Created for [The Museums + AI Network](https://themuseumsai.network) [conveening](https://themuseumsai.network/activities/), Pratt Institute, New York, 16-17 September 2019.
 
 **[Launch site](https://johnstack.github.io/what-the-machine-saw/index.html)**
+
+Read the post [Computer vision and the Science Museum Group Collection](https://lab.sciencemuseum.org.uk/computer-vision-and-the-science-museum-group-collection-a6c20efb0ac9) on the [Science Museum Group Digital Lab](https://lab.sciencemuseum.org.uk/) blog.
 
 ## Credits
 
