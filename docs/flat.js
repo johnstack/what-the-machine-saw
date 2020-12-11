@@ -10,15 +10,15 @@ request.addEventListener('load', function (e) {
     }
     
     document.getElementById('title').innerHTML = '<h1><a href="' + el.links.self + '">' + el.attributes.summary_title + '</a></h1>';
-    document.getElementById('pix').innerHTML = '<img src="' + imghost + el.attributes.multimedia[0].processed.medium.location + '">';
+    document.getElementById('pix').innerHTML = '<img alt="" src="' + imghost + el.attributes.multimedia[0].processed.medium.location + '">';
     if (el.attributes.multimedia[1]) {
-      document.getElementById('morepix').innerHTML = '<img src="' + imghost + el.attributes.multimedia[1].processed.medium.location + '">';
+      document.getElementById('morepix').innerHTML = '<img alt="" src="' + imghost + el.attributes.multimedia[1].processed.medium.location + '">';
     }
     if (el.attributes.multimedia[2]) {
-      document.getElementById('evenmorepix').innerHTML = '<img src="' + imghost + el.attributes.multimedia[2].processed.medium_thumbnail.location + '">';
+      document.getElementById('evenmorepix').innerHTML = '<img alt="" src="' + imghost + el.attributes.multimedia[2].processed.medium_thumbnail.location + '">';
     }
      if (el.attributes.multimedia[3]) {
-      document.getElementById('fourthpix').innerHTML = '<img src="' + imghost + el.attributes.multimedia[3].processed.medium_thumbnail.location + '">';
+      document.getElementById('fourthpix').innerHTML = '<img alt="" src="' + imghost + el.attributes.multimedia[3].processed.medium_thumbnail.location + '">';
     }
  
     if (el.attributes.multimedia[0].enhancement.rekognition[0].labels[0]) document.getElementById('tags').innerHTML = '<a href="http://collection.sciencemuseum.org.uk/search/imgtag/' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[0].value + '">1. ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[0].value + ' ' + el.attributes.multimedia[0].enhancement.rekognition[0].labels[0].details.confidence + '%</a>';
